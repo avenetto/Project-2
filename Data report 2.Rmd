@@ -1,0 +1,17 @@
+---
+title: "Data Report 2"
+author: "Angelina Venetto"
+date: "4/12/2022"
+output: html_document
+---
+```{r setup, include=FALSE}
+library(tidytuesdayR)
+library(tidyverse)
+library(ggrepel)    
+library(ggtext)
+```
+```{r}
+spotify_songs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-01-21/spotify_songs.csv')
+```
+#This is a data report for project number 2. This project is examining XXXXXX. The data is from: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md
+
